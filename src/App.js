@@ -1,17 +1,22 @@
+import React, { useState } from "react";
 import logo from "./logo.svg";
 import "./App.css";
 import meAndGoofy from "./MeAndGoofy.JPG";
 
 function App() {
+  const [lightMode, setLightMode] = useState("light");
+
   return (
-    <div>
+    <div className={lightMode}>
+      <button onClick={() => setLightMode("dark")}>Dark Mode</button>
+      <button onClick={() => setLightMode("light")}>Light Mode</button>
       <div className="opening">
         <h1 className="center">Victoria "Vicki" Tiller</h1>
         <h2 className="center">Front-End Software Engineer</h2>
         <h4 className="center">and Leonardo da Vinci Enthusiast</h4>
       </div>
-      <div class="about">
-        <div class="bio">
+      <div className="about">
+        <div className="bio">
           <p>
             I moved to Japan in 2016 to teach English, but five years and one
             pandemic later I decide to return to the United States. Since
@@ -28,8 +33,8 @@ function App() {
       </div>
       <body>
         <br />
-        <div class="portfolio">
-          <h3 class="center">Portfolio</h3>
+        <div className="portfolio">
+          <h3 className="center">Portfolio</h3>
           <ul>
             <li>
               <h5>
@@ -114,7 +119,7 @@ function App() {
             </a>
           </div>
         </div>
-        <h2 class="goodbye center">Thank you for visiting!</h2>
+        <h2 className="goodbye center">Thank you for visiting!</h2>
       </body>
     </div>
   );
