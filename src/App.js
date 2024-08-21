@@ -54,7 +54,7 @@ function App() {
                 </a>
               </h5>
               <p>
-                A colorpicker made with Javascript and React. Github repo
+                A colorpicker made with Javascript and React. Github repo{" "}
                 <a
                   href="https://github.com/vickiticki/color-picker-hooks"
                   class=""
@@ -73,7 +73,7 @@ function App() {
                 </a>
               </h5>
               <p>
-                A calculator made using Javascript and React. Github repo
+                A calculator made using Javascript and React. Github repo{" "}
                 <a href="https://github.com/vickiticki/react-calculator">
                   here
                 </a>
@@ -87,7 +87,7 @@ function App() {
                 </a>
               </h5>
               <p>
-                A simple volleyball scoreboard. Github repo
+                A simple volleyball scoreboard. Github repo{" "}
                 <a href="https://github.com/vickiticki/scoreboard">here</a>
               </p>
             </li>
