@@ -40,11 +40,17 @@
 .light {
   background-color: white;
   color: black;
+  .lightbtn {
+    display: none;
+  }
 }
 
 .dark {
   background-color: black;
   color: white;
+  .darkbtn {
+    display: none;
+  }
 }
 
 .opening {

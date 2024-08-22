@@ -7,8 +7,12 @@ function App() {
 
   return (
     <div className={lightMode}>
-      <button onClick={() => setLightMode("dark")}>Dark Mode</button>
-      <button onClick={() => setLightMode("light")}>Light Mode</button>
+      <button onClick={() => setLightMode("dark")} className="darkbtn">
+        Dark Mode
+      </button>
+      <button onClick={() => setLightMode("light")} className="lightbtn">
+        Light Mode
+      </button>
       <div className="opening">
         <h1 className="center">Victoria "Vicki" Tiller</h1>
         <h2 className="center">Front-End Software Engineer</h2>
