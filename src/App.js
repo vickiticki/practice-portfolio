@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import "./App.css";
 import meAndGoofy from "./MeAndGoofy.JPG";
+import resume from "./resume.pdf";
 
 function App() {
   const [lightMode, setLightMode] = useState("light");
@@ -41,7 +42,11 @@ function App() {
           <ul>
             <li>
               <h5>
-                <a href="https://gayoldtime-86967cd3285d.herokuapp.com/">
+                <a
+                  href="https://gayoldtime-86967cd3285d.herokuapp.com/"
+                  target="_blank"
+                  rel="noreferrer"
+                >
                   Gay Old Time
                 </a>
               </h5>
@@ -53,16 +58,17 @@ function App() {
             </li>
             <li>
               <h5>
-                <a href="https://color-picker-hooks-victoriatiller.netlify.app/">
+                <a
+                  href="https://color-picker-hooks-victoriatiller.netlify.app/"
+                  target="_blank"
+                  rel="noreferrer"
+                >
                   Color Picker
                 </a>
               </h5>
               <p>
                 A colorpicker made with Javascript and React. Github repo{" "}
-                <a
-                  href="https://github.com/vickiticki/color-picker-hooks"
-                  class=""
-                >
+                <a href="https://github.com/vickiticki/color-picker-hooks">
                   here
                 </a>
                 .
@@ -72,7 +78,11 @@ function App() {
           <ul>
             <li>
               <h5>
-                <a href="https://react-calculator-victoriatiller.netlify.app/">
+                <a
+                  href="https://react-calculator-victoriatiller.netlify.app/"
+                  target="_blank"
+                  rel="noreferrer"
+                >
                   Calculator
                 </a>
               </h5>
@@ -86,7 +96,11 @@ function App() {
             </li>
             <li>
               <h5>
-                <a href="https://scoreboard-victoriatiller.netlify.app/">
+                <a
+                  href="https://scoreboard-victoriatiller.netlify.app/"
+                  target="_blank"
+                  rel="noreferrer"
+                >
                   Scoreboard
                 </a>
               </h5>
@@ -100,10 +114,20 @@ function App() {
         <div class="contact">
           <h3 class="center">Find Me:</h3>
           <div class="links">
-            <a href="https://github.com/vickiticki" class="center">
+            <a
+              href="https://github.com/vickiticki"
+              class="center"
+              target="_blank"
+              rel="noreferrer"
+            >
               Github
             </a>
-            <a href="https://www.linkedin.com/in/vjtiller/" class="center">
+            <a
+              href="https://www.linkedin.com/in/vjtiller/"
+              class="center"
+              target="_blank"
+              rel="noreferrer"
+            >
               LinkedIn
             </a>
             <a href="mailto: vijotiller@gmail.com" class="center">
@@ -114,10 +138,15 @@ function App() {
         <div class="contact">
           <h3 class="center">More links:</h3>
           <div class="links">
-            <a href="resume.pdf" target="_blank" class="center">
+            <a href={resume} target="_blank" class="center" rel="noreferrer">
               Resume
             </a>
-            <a href="https://www.youtube.com/@vickitiller900" class="center">
+            <a
+              href="https://www.youtube.com/@vickitiller900"
+              class="center"
+              target="_blank"
+              rel="noreferrer"
+            >
               YouTube
             </a>
           </div>
