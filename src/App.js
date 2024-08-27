@@ -106,7 +106,7 @@ function App() {
               </h5>
               <p>
                 A simple volleyball scoreboard. Github repo{" "}
-                <a href="https://github.com/vickiticki/scoreboard">here</a>
+                <a href="https://github.com/vickiticki/scoreboard">here</a>.
               </p>
             </li>
           </ul>
