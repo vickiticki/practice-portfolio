@@ -53,11 +53,34 @@
   }
 }
 
+.tiptop {
+  /* padding-top: 1rem; */
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  column-gap: auto;
+  padding: 0px;
+  .center {
+    text-align: center;
+    padding-top: 1rem;
+    margin-top: 1rem;
+  }
+  .darkbtn {
+    width: fit-content;
+    height: fit-content;
+    margin-top: 2rem;
+  }
+  .lightbtn {
+    width: fit-content;
+    height: fit-content;
+    margin-top: 2rem;
+  }
+}
+
 .opening {
-  padding-top: 1rem;
+  /* padding-top: 1rem; */
   padding-bottom: 1.5rem;
   border-bottom: 3px dotted gray;
-  margin: 1rem;
+  margin-bottom: 1rem;
 }
 
 .center {
